@@ -33,7 +33,7 @@ while (cap.isOpened()):
     final_output = img
     output_file.write(img)
     #Mostrar el output al usuario
-    cv2.imshow("magic", final_output)
+    cv2.imshow("magia", final_output)
     cv2.waitKey(1)
 
 
